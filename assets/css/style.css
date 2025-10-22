@@ -29743,6 +29743,10 @@ body.tmp-body-star::before {
 .active-light-mode .inverweb-side-bar-close .logo-side a img.logo-light {
   display: none;
 }
+
+.logo-light{
+  width: 120px;
+}
 .active-light-mode header.logo-white-show.default-nav-white .dot-btn .offcanvas-trigger .offcanvas-bars span::before, .active-light-mode header.logo-white-show.default-nav-white .dot-btn .offcanvas-trigger .offcanvas-bars span::after {
   background: #fff;
 }
