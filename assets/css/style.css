@@ -18459,7 +18459,7 @@ Timeline Area
 .pricing-table-items .pricing-table {
   border-radius: 6px;
   padding: 37px 40px 40px 40px;
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30068,3 +30068,13 @@ body.tmp-body-star::before {
   color: #fff;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+.custom-w {
+  width: 52rem; /* Default width for large screens */
+}
+
+@media (max-width: 1400px) {
+  .custom-w {
+    width: 55rem; /* Smaller width on smaller screens */
+  }
+}
