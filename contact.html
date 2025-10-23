@@ -27,6 +27,21 @@
     <link href="assets/css/plugins/lightbox.css" rel="stylesheet">
     <link href="assets/css/plugins/odometer.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css?v=4.2.3">
+
+    <style>
+        /* Page-specific override: make all footer text red */
+        /* Target everything inside footer except <i> */
+footer *:not(i) {
+    background-color: white;
+    color: black;
+}
+
+/* Ensure links inside footer are also black */
+footer a {
+    color: black;
+}
+
+    </style>
 </head>
 
 
@@ -1252,7 +1267,6 @@
 
         <!-- Start Footer Area  -->
         <footer class="tmp-footer footer-style-default variation-two position-relative">
-
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
@@ -1264,40 +1278,28 @@
                                         <img class="logo-dark" src="https://yuviiconsultancy.com/wp-content/uploads/2022/12/YUVII-removebg-preview.png" alt="Corporate Logo">
                                     </a>
                                 </div>
-                                <p class="subtitle mt--30">Best consultancy service in USA | IT job consultancy in USA</p>
+                                <p style="color: black;" class="subtitle mt--30">Best consultancy service in USA | IT job consultancy in USA</p>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                            <div class="tmp-footer-widget">
-                                <h4 class="title">Company</h4>
-                                <div class="inner">
-                                    <ul class="footer-link link-hover">
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="tab.html">Tab Styles</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="social-share.html">Social</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div> -->
+                        
                         <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="tmp-footer-widget">
                                 <h4 class="title">Links</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">Testimonial</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a style="color: #5237F9; font-weight: bold;" href="index.html">Home</a></li>
+                                        <li><a style="color: #5237F9; font-weight: bold;" href="about.html">Testimonial</a></li>
+                                        <li><a style="color: #5237F9; font-weight: bold;" href="service.html">Service</a></li>
+                                        <li><a style="color: #5237F9; font-weight: bold;" href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="tmp-footer-widget">
-                                <h4 class="title">Stay With Us.</h4>
+                                <h4 class="title" style="color: black;">Stay With Us.</h4>
                                 <div class="inner">
-                                    <h6 class="subtitle">1200+ trusted clients are part of Us around the U.S.A</h6>
+                                    <h6 class="subtitle" style="color: black;">1200+ trusted clients are part of Us around the U.S.A</h6>
                                     <ul class="social-icon social-default justify-content-start">
                                         
                                         

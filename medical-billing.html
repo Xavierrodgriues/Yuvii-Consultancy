@@ -27,6 +27,21 @@
     <link href="assets/css/plugins/lightbox.css" rel="stylesheet">
     <link href="assets/css/plugins/odometer.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css?v=4.2.3">
+
+        <style>
+        /* Page-specific override: make all footer text red */
+        /* Target everything inside footer except <i> */
+            footer *:not(i) {
+                background-color: white;
+                color: black;
+            }
+
+            /* Ensure links inside footer are also black */
+            footer a {
+                color: black;
+            }
+
+        </style>
 </head>
 
 <body class="overflow-visible">
@@ -45,16 +60,16 @@
                             </div>
                             <nav class="mainmenu-nav d-none d-lg-block">
                                 <ul class="mainmenu onepagenav">
-                                    <li class="with-megamenu has-menu-child-item "><a style="color: black;" href="#hero">Home</a>
+                                    <li class="with-megamenu has-menu-child-item "><a style="color: black;" href="index.html">Home</a>
                                         
                                     </li>
                                     <li class="with-megamenu">
-                                        <a style="color: black;" href="#about">
+                                        <a style="color: black;" href="about.html">
                                             About
                                             <!-- <i class="feather-more-vertical"></i> -->
                                         </a>
                                     </li>
-                                    <li class="with-megamenu position-relative"><a style="color: black;" href="#service">Service</a>
+                                    <li class="with-megamenu position-relative"><a style="color: black;" href="service.html">Service</a>
                                     </li>
                                     <!-- <li class="has-droupdown"><a href="#project">Project</a>
                                     </li> -->
@@ -63,7 +78,7 @@
                                     <!-- <li class="has-droupdown"><a href="#blog">Blog</a>
                                     </li> -->
 
-                                    <li><a href="#contactus" style="color: black;">Contact</a></li>
+                                    <li><a href="contact.html" style="color: black;">Contact</a></li>
                                 </ul>
 
 
@@ -1154,124 +1169,6 @@
             </div>
         </div>
 
-
-
-
-        <!-- Start Pricing Style-1  -->
-        <div class="tmp-pricing-area tmp-section-gap">
-            <div class="container">
-                <div class="row mb--40 mb_sm--0">
-                    <div class="col-lg-12">
-                        <div class="tmp-section-title-border text-center">
-                            <div class="pres-line-separator-wrapper text-center mb--10">
-                                <div class="line-separator line-left"></div>
-                                <span class="subtitle">
-                                    <span class="number">04</span>
-                                <span class="subtitle-text">Pricing</span>
-                                </span>
-                                <div class="line-separator line-right"></div>
-                            </div>
-                            <h2 class="title w-700">Our Pricing</h2>
-                            <p class="b1">Enjoy a free 14-day trial and experience the full service. <br> No credit card
-                                required!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-5">
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="tmp-pricing tmponhover">
-                            <div class="pricing-table-inner">
-                                <div class="pricing-header">
-                                    <h4 class="title tmp-badge-2">Free</h4>
-                                    <div class="pricing">
-                                        <div class="price-wrapper"><span class="currency">$</span><span
-                            class="price">00</span></div><span class="subtitle">USD Per
-                        Month</span>
-                                    </div>
-                                </div>
-                                <div class="pricing-body">
-                                    <ul class="list-style--1">
-                                        <li><i class="feather-check"></i> 5 PPC Campaigns</li>
-                                        <li><i class="feather-check"></i> Digital Marketing</li>
-                                        <li><i class="feather-check"></i> Marketing Agency</li>
-                                        <li><i class="feather-check"></i> Seo Friendly</li>
-                                        <li><i class="feather-check"></i> UI/UX designs</li>
-                                    </ul>
-                                </div>
-                                <div class="pricing-footer">
-                                    <a class="tmp-btn icon-hover text-center btn-border" href="#">
-                                        <span class="btn-text">Try This free</span>
-                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="tmp-pricing tmponhover active with-gradient-bg">
-                            <div class="pricing-table-inner">
-                                <div class="pricing-header">
-                                    <h4 class="title tmp-badge-2">Business</h4>
-                                    <div class="pricing">
-                                        <div class="price-wrapper"><span class="currency">$</span><span
-                            class="price">50</span></div><span class="subtitle">USD Per
-                        Month</span>
-                                    </div>
-                                </div>
-                                <div class="pricing-body">
-                                    <ul class="list-style--1">
-                                        <li><i class="feather-check"></i> 5 PPC Campaigns</li>
-                                        <li><i class="feather-check"></i> Keep 100% Royalties</li>
-                                        <li><i class="feather-check"></i> App Development</li>
-                                        <li><i class="feather-check"></i> Seo Friendly</li>
-                                        <li><i class="feather-check"></i> UI/UX designs</li>
-                                    </ul>
-                                </div>
-                                <div class="pricing-footer">
-                                    <a class="tmp-btn icon-hover text-center" href="#">
-                                        <span class="btn-text">Try 14-days free</span>
-                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="popular-tag">Popular</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="tmp-pricing tmponhover">
-                            <div class="pricing-table-inner">
-                                <div class="pricing-header">
-                                    <h4 class="title tmp-badge-2">Advanced</h4>
-                                    <div class="pricing">
-                                        <div class="price-wrapper"><span class="currency">$</span><span
-                            class="price">100</span></div><span class="subtitle">USD Per
-                        Month</span>
-                                    </div>
-                                </div>
-                                <div class="pricing-body">
-                                    <ul class="list-style--1">
-                                        <li><i class="feather-check"></i> 50 PPC Campaigns</li>
-                                        <li><i class="feather-check"></i> SEO Marketing</li>
-                                        <li><i class="feather-check"></i> Marketing Agency</li>
-                                        <li><i class="feather-check"></i> Seo Friendly</li>
-                                        <li><i class="feather-check"></i> Application Manage</li>
-                                    </ul>
-                                </div>
-                                <div class="pricing-footer">
-                                    <a class="tmp-btn icon-hover text-center btn-border" href="#">
-                                        <span class="btn-text">Try 14-days free</span>
-                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Pricing Style-1  -->
-
         <!-- Srart About Area  -->
         <div class="about-area about-style-4 tmp-section-gapBottom">
             <div class="container">
@@ -1473,8 +1370,7 @@
 
 
         <!-- Start Footer Area  -->
-        <footer class="tmp-footer footer-style-default variation-two position-relative">
-
+         <footer class="tmp-footer footer-style-default variation-two position-relative">
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
@@ -1486,40 +1382,28 @@
                                         <img class="logo-dark" src="https://yuviiconsultancy.com/wp-content/uploads/2022/12/YUVII-removebg-preview.png" alt="Corporate Logo">
                                     </a>
                                 </div>
-                                <p class="subtitle mt--30">Best consultancy service in USA | IT job consultancy in USA</p>
+                                <p style="color: black;" class="subtitle mt--30">Best consultancy service in USA | IT job consultancy in USA</p>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                            <div class="tmp-footer-widget">
-                                <h4 class="title">Company</h4>
-                                <div class="inner">
-                                    <ul class="footer-link link-hover">
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="tab.html">Tab Styles</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="social-share.html">Social</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div> -->
+                        
                         <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="tmp-footer-widget">
                                 <h4 class="title">Links</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">Testimonial</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a style="color: #5237F9; font-weight: bold;" href="index.html">Home</a></li>
+                                        <li><a style="color: #5237F9; font-weight: bold;" href="about.html">Testimonial</a></li>
+                                        <li><a style="color: #5237F9; font-weight: bold;" href="service.html">Service</a></li>
+                                        <li><a style="color: #5237F9; font-weight: bold;" href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="tmp-footer-widget">
-                                <h4 class="title">Stay With Us.</h4>
+                                <h4 class="title" style="color: black;">Stay With Us.</h4>
                                 <div class="inner">
-                                    <h6 class="subtitle">1200+ trusted clients are part of Us around the U.S.A</h6>
+                                    <h6 class="subtitle" style="color: black;">1200+ trusted clients are part of Us around the U.S.A</h6>
                                     <ul class="social-icon social-default justify-content-start">
                                         
                                         
